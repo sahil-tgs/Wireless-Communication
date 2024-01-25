@@ -29,6 +29,7 @@ The script focuses on producing Tambola tickets with a 3x9 grid, adhering to rul
    - Replaces standalone zeros with '__' using regular expressions.
 
 ## Output:
+![alt text](lab1-screenshot-1.png)
 
 
 ## Conclusion:
