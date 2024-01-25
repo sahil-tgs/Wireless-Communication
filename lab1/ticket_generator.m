@@ -5,7 +5,7 @@ function tambola_ticket_generator()
 
     % Module 1: Generate rows
     rows = generate_rows();
-
+11111111111111
     % Module 2: Generate columns
     ticket = generate_columns(rows);
 
