@@ -7,7 +7,9 @@ The aim of this practical is to analyze and compare Gaussian distributions and t
 
 ### 2. Theory:
 The Gaussian distribution, also known as the normal distribution, is a fundamental concept in probability theory and statistics. It is characterized by two parameters: mean (*μ*) and standard deviation (*σ*). The Gaussian function, defined as:
-`exp(-0.5 * ((x - μ) / σ)^2) / (σ * sqrt(2 * pi))` 
+```
+exp(-0.5 * ((x - μ) / σ)^2) / (σ * sqrt(2 * pi))
+``` 
 describes the probability density of a continuous random variable.
 
 The cumulative distribution function (CDF) provides the probability that a random variable takes a value less than or equal to a given value. For a Gaussian distribution, the CDF is obtained using the `normcdf` function in MATLAB.
@@ -17,20 +19,24 @@ The cumulative distribution function (CDF) provides the probability that a rando
 #### - `gaussianFunction.m`:
 This MATLAB file generates a Gaussian bell curve using the `linspace` function to create a range of *x* values. The resulting plot shows the probability density function for a Gaussian distribution with specified mean (*μ*) and standard deviation (*σ*).
 
-![alt text](lab2-output1-ss.png)
+![GaussianFunction](lab2-output1-ss.png)
+
+
 
 #### - `gaussianFunction2.m`:
-    Similar to `gaussianFunction.m`, this script generates a Gaussian function using random *x* values obtained from a standard normal distribution transformed with the desired mean and standard deviation. The use of `randn` ensures the randomness of the generated data points.
+Similar to `gaussianFunction.m`, this script generates a Gaussian function using random *x* values obtained from a standard normal distribution transformed with the desired mean and standard deviation. The use of `randn` ensures the randomness of the generated data points.
 
-![alt text](lab2-output2-ss.png)
+![GaussianFunction2](lab2-output2-ss.png)
+
 
 #### - `comparision.m`:
-    This script generates and compares Gaussian functions with different standard deviations, visualizing the impact of *σ* on the probability density function. The resulting plot illustrates how changing *σ* affects the width and shape of the Gaussian curve.
+This script generates and compares Gaussian functions with different standard deviations, visualizing the impact of *σ* on the probability density function. The resulting plot illustrates how changing *σ* affects the width and shape of the Gaussian curve.
 
-![alt text](lab2-output3-ss.png)
+![Comparision](lab2-output3-ss.png)
+
 
 #### - `gaussian_cdf.m`:
-    The script focuses on plotting Gaussian cumulative distribution functions with varying standard deviations. By utilizing the `normcdf` function, the CDFs are visualized for a range of *x* values, providing insights into the probability of observing values below a certain threshold.
+The script focuses on plotting Gaussian cumulative distribution functions with varying standard deviations. By utilizing the `normcdf` function, the CDFs are visualized for a range of *x* values, providing insights into the probability of observing values below a certain threshold.
 
 
 ### 4. Conclusion:
