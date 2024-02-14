@@ -19,20 +19,20 @@ The cumulative distribution function (CDF) provides the probability that a rando
 #### - `gaussianFunction.m`:
 This MATLAB file generates a Gaussian bell curve using the `linspace` function to create a range of *x* values. The resulting plot shows the probability density function for a Gaussian distribution with specified mean (*μ*) and standard deviation (*σ*).
 
-![GaussianFunction](lab2-output1-ss.png)
+![GaussianFunction](lab2-output1-ss.png.png)
 
 
 
 #### - `gaussianFunction2.m`:
 Similar to `gaussianFunction.m`, this script generates a Gaussian function using random *x* values obtained from a standard normal distribution transformed with the desired mean and standard deviation. The use of `randn` ensures the randomness of the generated data points.
 
-![GaussianFunction2](lab2-output2-ss.png)
+![GaussianFunction2](lab2-output2-ss.png.png)
 
 
 #### - `comparision.m`:
 This script generates and compares Gaussian functions with different standard deviations, visualizing the impact of *σ* on the probability density function. The resulting plot illustrates how changing *σ* affects the width and shape of the Gaussian curve.
 
-![Comparision](lab2-output3-ss.png)
+![Comparision](lab2-output3-ss.png.png)
 
 
 #### - `gaussian_cdf.m`:
