@@ -1,4 +1,4 @@
-### [Latest Week's Report ->](https://github.com/sahil-tgs/Wireless-Communication/blob/main/lab4/Lab4-Report.md)
+### [Latest Week's Report ->](https://github.com/sahil-tgs/Wireless-Communication/blob/main/lab5/Lab5-Report.md)
 
 **Name:** Sahil Mandi
 
